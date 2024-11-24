@@ -37,5 +37,6 @@ if __name__ == "__main__":
     print("유사도 계산 중...")
     most_similar_sentence, similarity_score = find_most_similar_sentence(input_text, sentences)
 
-    print(f"\n입력값과 가장 유사한 문장:\n{most_similar_sentence}")
+    print(f"\n입력값 : {input_text}")
+    print(f"입력값과 가장 유사한 문장:\n{most_similar_sentence}")
     print(f"유사도 점수: {similarity_score:.4f}")
