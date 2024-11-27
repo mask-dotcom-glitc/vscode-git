@@ -1,0 +1,4 @@
+강제 병합 옵션을 사용하여 원격 저장소의 변경 사항을 가져오기: git pull orgin main --allow-unrelated-histories
+병합 충돌 해결: git add .
+                git commit -m "충돌 해결"
+변경 사항을 원격 저장소에 푸시하기: git push orgin 브랜치명
